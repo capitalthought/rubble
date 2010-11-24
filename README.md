@@ -45,7 +45,15 @@ public/javascripts/master
   
 public/stylesheets
   SASS is compiled to here. avoid creating files here or writing plain CSS, use SASS in app/stylesheets
-  
+
+Helpers
+-------
+
+- `page_title`: this needs attention.
+- `classes_for_body`: adds class for namespace, controller, action, and session status to body tag. (ex /admin/products/new yields body class="admin products new user") dependent on `logged_in?` helper. TODO: more explicit user states (user/guest should be logged_in/not_logged_in)
+- `stylesheets_for_path`: looks for stylesheet matching namespace, controller, and action. concats to `all.css` in production. Ex: /admin/products/new looks for and loads if exists stylesheets/admin.css, stylesheets/admin/products.css, and stylesheets/admin/products/new.css
+- `logged_in?`: this needs to be replaced with the helper method from auth plugin of choice (should maybe include something with rubble)
+
 
 TODO
 ----
