@@ -1,0 +1,11 @@
+<%= render :partial => 'layouts/rubble/head' %>
+
+<body class="<%= classes_for_body %>" data-controller="<%= controller_name %>" data-action="<%= action_name %>"><div id="theater"><div id="stage">
+
+  <%= yield -%>
+  
+  <%= render :partial => 'layouts/rubble/scripts' -%>
+  <%= render :partial => 'layouts/rubble/analytics' if RAILS_ENV == 'production' -%>
+  
+</div></div></body>
+</html>

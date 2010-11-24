@@ -1,0 +1,10 @@
+
+  <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' if RAILS_ENV == 'production' %>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="<%= javascript_path "libs/jquery-1.4.4.min.js" %>"%3E%3C/script%3E'))</script>
+
+  <%= javascript_include_tag 'master' %>
+
+  <!--[if lt IE 7 ]>
+    <%= javascript_include_tag 'DD_belatedPNG_0.0.8a-min' %>
+    <script> DD_belatedPNG.fix('img, .png_bg'); </script>
+  <![endif]-->

@@ -1,0 +1,65 @@
+// Grid (1/40, 2/100, 3/160, 4/220, 5/280, 6/340, 7/400, 8/460, 9/520, 10/580, 11/640, 12/700, 13/760, 14/820, 15/880, 16/940)
+// ====
+
+$sg-column: 40px;
+$sg-gutter: 20px;
+$sg-max-columns: 16;
+$sg-baseline: 20px;
+
+// Color
+// =====
+
+$sg-base-font-color: #222;
+
+$sg-link-color: #0066B3;
+$sg-rule-color: #ddd;
+$sg-caption-color: #666;
+$sg-feature-color: #fffabf;
+
+$sg-green: #408040;
+$sg-yellow: #ffbb00;
+$sg-red: #bf3030;
+
+
+// Typography
+// ==========
+
+$sg-base-font-size: 12px;
+$sg-base-line-height: 20px;
+
+@mixin base-font {
+  color: $sg-base-font-color;
+  font: normal $sg-base-font-size 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: $sg-base-line-height; 
+  //-webkit-font-smoothing: antialiased;
+}
+
+
+// Links
+// =====
+
+
+// Buttons
+// =======
+
+
+// Icons
+// =====
+
+
+// Forms
+// =====
+
+
+// Effects
+// =======
+@mixin shadowed-text {
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+@mixin inset-text {
+  text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+@mixin inset-box {
+  @include outer-shadow(0px, 1px, 0px, rgba(255,255,255, 0.9));
+}
+

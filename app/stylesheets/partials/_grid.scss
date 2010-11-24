@@ -1,0 +1,22 @@
+@mixin grid($columns, $offset: 0) { 
+  width: ($sg-column + (($sg-column + $sg-gutter) * ($columns - 1))) + $offset;
+}
+
+@mixin column { 
+  @include clearfix;
+  display: inline; // IE
+  float: left;
+  margin: 0 ($sg-gutter / 2);
+}
+
+@mixin row { 
+  @include clearfix;
+  margin: 0 auto;
+  width: ($sg-column + $sg-gutter) * $sg-max-columns;
+}
+
+@mixin nested-row {
+  display: inline-block; // IE
+  margin: 0 -10px;
+  width: auto;
+}

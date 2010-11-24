@@ -1,0 +1,55 @@
+html { height: 100%; margin-bottom: 1px; overflow-y: scroll; }
+
+// Base Tags
+// =========
+body { 
+  @include base-font;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 { }
+h1, h2, h3 { 
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+h4, h5, h6 { }
+h1 {  }
+h2 {  }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+a {
+  &:link, &:visited { color: $sg-link-color; }
+  &:active, &:hover { text-decoration: none;  }
+}
+
+time { font-weight: bold; }
+
+
+// Global Classes
+// ==============
+.hidden {
+  display: none; 
+  visibility: hidden; 
+}
+.visuallyhidden { // Hidden visually but available for screenreaders (www.webaim.org/techniques/css/invisiblecontent/ & j.mp/visuallyhidden)
+  clip: rect(1px 1px 1px 1px); // IE6, IE7
+  clip: rect(1px, 1px, 1px, 1px); 
+  position: absolute !important;
+}
+.invisible { // Hidden visually and from screenreaders
+  visibility: hidden; 
+}
+
+// Global Layout
+// =============
+#theater {  }
+
+#stage { 
+  @include row; 
+  & > header, & > footer { @include column; @include grid(16); }
+}
+
+#page {  }
