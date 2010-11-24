@@ -1,0 +1,87 @@
+@mixin nav-menu {
+  > a {
+    background: transparent url('/images/icons/arrow-down-large-sprite.png') no-repeat right 3px;
+    padding-right: $sg-gutter - 1;
+    text-decoration: none;
+  }
+  &:hover {
+    border-left: none;
+    color: $sg-dark-grey;
+    cursor: default;
+    padding-left: $sg-gutter + 1;
+    z-index: 1099;
+    a { 
+      &:link, &:visited { color: $sg-dark-grey; }
+      &:hover, &:active { color: $sg-green; }
+    }
+    
+    > a:hover { color: $sg-dark-grey; }
+    ul {
+      @include outer-shadow;
+      background-color: $sg-snow;
+      display: block;
+      left: 0;
+      min-width: 100%;
+      padding-top: ($sg-baseline * 2) + ($sg-baseline/2);
+      position: absolute;
+      top: -($sg-baseline/2);
+      z-index: -1;
+      li {
+        @include heading-font;
+        font-size: $sg-font-size-l;
+        font-weight: normal;
+        padding: 0 $sg-gutter;
+        padding-bottom: $sg-baseline / 2;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@mixin top-labeled-form {
+  &.formtastic {
+    fieldset > ol {
+      > li label { width:$sg-form-full-width; float:none; margin-bottom: $sg-baseline; }
+      > li.search input { width:$sg-form-full-width; }
+      > li.text textarea { width:$sg-form-full-width; }
+      > li.text textarea[cols] { max-width:$sg-form-full-width; }
+      > li.boolean label { padding-left:0; }
+    }
+    fieldset.buttons { padding-left:0; }
+  }
+}
+
+@mixin left-labeled-form($input_width) {
+    form.formtastic fieldset > ol > li label { @include grid(2); float: left; }
+    form.formtastic fieldset > ol > li.boolean label { @include grid(6); float: left; }
+    
+    form.formtastic fieldset.buttons { @include grid(2, $input_width); }
+    form.formtastic fieldset > ol > li.string input, 
+    form.formtastic fieldset > ol > li.password input, 
+    form.formtastic fieldset > ol > li.numeric input,
+    form.formtastic fieldset > ol > li.email input,
+    form.formtastic fieldset > ol > li.url input,
+    form.formtastic fieldset > ol > li.phone input,
+    form.formtastic fieldset > ol > li.text textarea,
+    form.formtastic fieldset > ol > li.search input { width: $input_width; float: left; }    
+    form.formtastic fieldset > ol > li label { @include grid(2); float: left; }
+    form.formtastic fieldset > ol > li p.inline-hints { @include grid(2,0,'margin-left'); color:#666; clear:left; padding-top: 7px; }
+}
+
+@mixin currency-input {
+  width: $sg-form-numeric-width;
+}
+
+
+@mixin lr-layout($left_column, $right_column) {
+  #{$left_column} {
+    @include column; 
+    @include grid(2);
+  }
+  #{$right_column} {
+    @include column; 
+    @include grid(7, -$sg-gutter);
+    border-left: 1px solid $sg-light-grey;
+    padding-left: $sg-gutter - 1;
+  }
+}

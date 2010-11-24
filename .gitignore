@@ -1,0 +1,10 @@
+log/*.log
+log/*.pid
+tmp/**/*
+doc/api
+doc/app
+db/*.sqlite3
+config/database.yml
+.rvmrc
+.sass-cache
+.DS_Store
