@@ -1,11 +1,23 @@
+<!DOCTYPE html>  
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 ie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 ie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 ie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9 ie"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
 <%= render :partial => 'layouts/rubble/head' %>
 
 <body class="<%= classes_for_body %>" data-controller="<%= controller_name %>" data-action="<%= action_name %>"><div id="theater"><div id="stage">
 
   <%= yield -%>
   
-  <%= render :partial => 'layouts/rubble/scripts' -%>
-  <%= render :partial => 'layouts/rubble/analytics' if RAILS_ENV == 'production' -%>
-  
-</div></div></body>
+</div></div>
+
+<%= render :partial => 'layouts/rubble/scripts' -%>
+<%= render :partial => 'layouts/rubble/analytics' if Rails.env == 'production' -%>
+
+</body>
 </html>

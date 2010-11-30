@@ -17,6 +17,6 @@
 
 @mixin nested-row {
   display: inline-block; // IE
-  margin: 0 -10px;
+  margin: 0 -($sg-gutter / 2);
   width: auto;
 }
