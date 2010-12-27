@@ -63,6 +63,7 @@ TODO
 + Use IE9.js?
 + Utilize JavaScript concatenation
 + Add Rack Modernizr ([https://github.com/marshally/rack-modernizr](https://github.com/marshally/rack-modernizr))
+* Evaluate Jammit for potential integration with Rubble: [http://documentcloud.github.com/jammit/](http://documentcloud.github.com/jammit/)
 
 Reference & Attribution
 -----------------------
