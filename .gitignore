@@ -1,10 +1,10 @@
+.DS_Store
+.rvmrc
+.sass-cache
+config/database.yml
+db/*.sqlite3
+doc/api
+doc/app
 log/*.log
 log/*.pid
 tmp/**/*
-doc/api
-doc/app
-db/*.sqlite3
-config/database.yml
-.rvmrc
-.sass-cache
-.DS_Store
