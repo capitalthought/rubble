@@ -5,7 +5,7 @@ module Rubble
     source_root File.expand_path('../../../../app/sass', __FILE__)
       
     def copy_all
-       directory '.', "rubble"
+       directory '.', "rubble/sass"
     end
           
   end
