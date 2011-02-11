@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "rubble"
   s.version     = Rubble::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Adam Michela","Bill Doughty", "Rob Eanes"]
+  s.authors     = ["Adam Michela", "Bill Doughty", "Rob Eanes"]
   s.email       = ["howdy@capitalthought.com"]
   s.homepage    = ""
   s.summary     = "A modular mixin for building best of breed (Ruby) web apps."
@@ -18,7 +18,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency("sass")
 
-  s.add_development_dependency("rspec", ["~> 2.5"])
+  s.add_development_dependency("rspec-rails", ["~> 2.5"])
+  s.add_development_dependency("spork", ["~> 0.8"])
+  s.add_development_dependency("rake")
+  s.add_development_dependency("rails")
 
   s.files        = Dir.glob("lib/**/*") + %w(README.md)
   s.require_path = 'lib'
