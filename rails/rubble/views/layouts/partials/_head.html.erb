@@ -4,6 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title><%= page_title || 'Rubblized' %></title>
+  <%= csrf_meta_tag %>
+
   <%= render :partial => 'layouts/rubble/meta' -%>
   <%= render :partial => 'layouts/rubble/externals' -%>
   
