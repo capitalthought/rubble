@@ -1,3 +1,5 @@
+require 'active_support'
+
 module Rubble
   module Layout
     extend ActiveSupport::Concern
