@@ -1,1 +1,36 @@
-// Put your application's style guide here.
+// Grid 
+// ====
+
+$sg-column: 40px;
+$sg-gutter: 20px;
+$sg-max-columns: 16;
+$sg-baseline: 20px;
+
+
+// Color
+// =====
+
+$sg-black: #1a1a1a;
+$sg-white: #fff;
+$sg-blue: #0066b3;
+
+$sg-base-font-color: $sg-black;
+$sg-inverse-font-color: $sg-white;
+
+$sg-link-color: $sg-blue;
+
+$sg-background-html: $sg-white;
+$sg-background-body: $sg-white;
+
+// Typography
+// ==========
+
+$sg-font-size-xs: 11px;
+$sg-font-size-s: 12px;
+$sg-font-size-m: 13px;
+$sg-font-size-l: 16px;
+$sg-font-size-xl: 18px;
+$sg-font-size-xxl: 24px;
+$sg-font-size-xxxl: 28px;
+
+$sg-base-font-size: $sg-font-size-m;

@@ -1,1 +1,24 @@
-// Override rubble's grid here.
+@mixin grid($columns, $offset: 0, $prop: "width") { 
+  #{$prop}: ($sg-column + (($sg-column + $sg-gutter) * ($columns - 1))) + $offset;
+}
+
+@mixin column { 
+  @include clearfix;
+  display: inline; // IE
+  float: left;
+  margin-left: ceil($sg-gutter / 2);
+  margin-right: floor($sg-gutter / 2);
+}
+
+@mixin row { 
+  @include clearfix;
+  margin: 0 auto;
+  width: ($sg-column + $sg-gutter) * $sg-max-columns;
+}
+
+@mixin nested-row {
+  display: inline-block; // IE
+  margin-left: ceil($sg-gutter / 2);
+  margin-right: floor($sg-gutter / 2);
+  width: auto;
+}

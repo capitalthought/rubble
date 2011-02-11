@@ -1,10 +1,10 @@
-@import "rubble/lib/init";
+@import "lib/init";
 
-@import "rubble/reset";
-@import "rubble/base";
+@import "reset";
+@import "base";
 
-@import "application";
-@import "views";
+@import "../../app/sass/application";
+@import "../../app/sass/views";
 
-@import "rubble/print";
 @import "print";
+@import "../../app/sass/print";
