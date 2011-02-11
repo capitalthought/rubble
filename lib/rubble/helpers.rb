@@ -9,7 +9,6 @@ module Rubble
 
     def stylesheets_for_path(stylesheets = Array.new)
       cp = controller.controller_path
-      File.stub(:exists?).and_return(true)
       stylesheets << 'views/' + cp.split('/').first
       stylesheets << 'views/' + cp if cp.split('/').first != cp
       stylesheets << 'views/' + cp + '/' + controller.action_name
