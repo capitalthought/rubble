@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"><![endif]--> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title><%= page_title || 'Rubblized' %></title>
+  <%= render :partial => 'layouts/rubble/meta' -%>
+  <%= render :partial => 'layouts/rubble/externals' -%>
+  
+  <%= stylesheets_for_path ['rubble'] %>
+  
+  <%= javascript_include_tag "rubble/modernizr-1.6.min.js" %>
+  
+  <%= yield :head %>
+  
+  <%= render :partial => 'layouts/rubble/scripts-header' -%>
+  <%= render :partial => 'layouts/rubble/analytics-header' if Rails.env == 'production' -%>
+</head>
