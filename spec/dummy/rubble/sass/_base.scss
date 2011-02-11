@@ -1,0 +1,51 @@
+/* 
+  Rails on Rubble 
+    http://capitalthought.com
+  
+  Author: 
+    Adam Michela - Capital Thought
+  
+  Contributors: 
+    Bill Doughty - Capital Thought
+    Rob Eanes - Capital Thought
+    Jason Cohen - Capital Thought
+*/
+
+html { background: $sg-background-html; height: 100%; margin-bottom: 1px; overflow-y: scroll; }
+
+// Universal Styles
+// ================
+
+body { 
+  background: $sg-background-body;
+  color: $sg-base-font-color;
+  font: normal $sg-base-font-size Helvetica, Arial, sans-serif;
+  line-height: $sg-baseline;
+}
+
+h1, h2, h3 { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+
+a {
+  font-family: inherit;
+  &:link, &:visited { color: $sg-link-color; text-decoration: none; }
+  &:active, &:hover { text-decoration: underline;  }
+}
+
+// Library Styles
+// ==============
+
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); position: absolute !important; }
+.invisible { visibility: hidden; }
+
+// Grid
+
+.clearfix { @include clearfix; }
+
+.row { @include row; }
+.nested-row { @include nested-row; }
+.column { @include column; }
+
+@for $i from 1 through $sg-max-columns {
+  .grid-#{$i} { @include grid($i); }
+}
