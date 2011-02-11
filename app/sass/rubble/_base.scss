@@ -25,3 +25,14 @@ a {
 .visuallyhidden { clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); position: absolute !important; }
 .invisible { visibility: hidden; }
 
+// Grid
+
+.clearfix { @include clearfix; }
+
+.row { @include row; }
+.nested-row { @include nested-row; }
+.column { @include column; }
+
+@for $i from 1 through $sg-max-columns {
+  .grid-#{$i} { @include grid($i); }
+}
