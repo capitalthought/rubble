@@ -1,5 +1,9 @@
 module Rubble
-  def Rubble.include_layout
-    ActionController::Base.append_view_path "rubble/views"
+  module Layout
+    extend ActiveSupport::Concern
+    included do
+      ActionController::Base.append_view_path "rubble/views"
+      layout "rubble"
+    end
   end
 end
