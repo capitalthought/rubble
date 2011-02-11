@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+require 'pty'
+
+def help
+  puts ""
+  puts "rubble <options>"
+  puts
+  puts "  --watch    starts the SASS compiler to watch your application SASS files and generate \"Rubble powered\" .css file."
+  puts
+end
+
+def error message
+  puts ""
+  puts message
+  help
+end
+
+def shell_command cmd
+  begin
+    PTY.spawn( cmd ) do |stdin, stdout, pid|
+      begin
+        # Do stuff with the output here. Just printing to show it works
+        stdin.each { |line| print line }
+      rescue Errno::EIO
+        puts "Errno:EIO error, but this probably just means " +
+              "that the process has finished giving output"
+      end
+    end
+  rescue PTY::ChildExited
+    puts "The child process exited!"
+  end
+  
+end
+
+
+case ARGV[0]
+when '--watch'
+  puts "Starting SASS watcher."
+  shell_command 'sass --watch app/sass:public/stylesheets rubble/sass:public/stylesheets'
+when nil, ''
+  error "You must supply an option to the rubble command."
+else
+  puts "unknown command '#{}'"
+  help
+end

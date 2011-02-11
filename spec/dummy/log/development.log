@@ -1,0 +1,405 @@
+
+
+Started GET "/" for 127.0.0.1 at 2010-12-31 11:53:14 -0600
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/rails_bridge/layouts" for 127.0.0.1 at 2010-12-31 11:53:26 -0600
+  Processing by RailsBridge::LayoutBridgeController#index as HTML
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/jumbo.css" for 127.0.0.1 at 2010-12-31 11:53:26 -0600
+
+ActionController::RoutingError (No route matches "/stylesheets/jumbo.css"):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/rails_bridge/layouts/alternative" for 127.0.0.1 at 2010-12-31 11:53:31 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"alternative"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/alternative (0.7ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 15ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 11:56:17 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.2ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:01:27 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.2ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:02:37 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.4ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:03:08 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:03:18 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.4ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:04:08 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:04:31 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:04:57 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:05:55 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:06:49 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:10:07 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:10:31 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:12:20 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (32.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 38ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:24:39 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 8ms
+
+NameError (uninitialized constant RailsBridge::LAYOUTS_PATH):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:29:57 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 20ms
+
+NameError (uninitialized constant RailsBridge::LayoutBridgeController::Rais):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:30:11 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 39ms
+
+NameError (uninitialized constant RailsBridge::LAYOUTS_PATH):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:31:26 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.3ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 26ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:32:13 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.2ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:33:26 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:36:12 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 1ms
+
+NoMethodError (undefined method `sub!' for :show:Symbol):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:36:24 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/layouts/application/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:36:36 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/show.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:38:07 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 32ms
+
+ActionView::MissingTemplate (Missing template /show with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/billdoughty/src/capitalthought/rails_bridge/spec/dummy/app/rails_bridge/layout_bridge/layouts/application", "/Users/billdoughty/src/capitalthought/rails_bridge/spec/dummy/app/views", "/Users/billdoughty/src/capitalthought/rails_bridge/app/views"):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:38:18 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/content.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:38:37 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (2.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:40:43 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (2.1ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:41:43 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (5.5ms)
+Completed   in 10ms
+
+ActionView::Template::Error (Missing partial rails_bridge/layout_bridge/partial with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/billdoughty/src/capitalthought/rails_bridge/spec/dummy/app/rails_bridge/layout_bridge/layouts/application", "/Users/billdoughty/src/capitalthought/rails_bridge/spec/dummy/app/views", "/Users/billdoughty/src/capitalthought/rails_bridge/app/views"):
+    9: </head>
+    10: <body>
+    11: 
+    12: <%= render :partial => 'partial' %>
+    13: <%= yield %>
+    14: 
+    15: </body>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2430242718480188775_2155409740_4556569445426712479'
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.9ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (38.3ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:42:08 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered layouts/_partial.html.erb (0.3ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (4.7ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:44:23 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Completed   in 8ms
+
+NameError (uninitialized constant RailsBridge::VIEWS_PATH):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:44:42 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.3ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (4.2ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 26ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:48:16 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.3ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (3.7ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/" for 127.0.0.1 at 2010-12-31 12:50:23 -0600
+  Processing by RailsBridge::LayoutBridgeController#index as HTML
+Rendered layouts/_partial.html.erb (0.3ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/rails_bridge/layout_bridge/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/alternative" for 127.0.0.1 at 2010-12-31 12:50:43 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"alternative"}
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/app/views/content.html.erb within layouts/alternative (1.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 21ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:50:47 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.4ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (4.9ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/jumbo.css" for 127.0.0.1 at 2010-12-31 12:50:48 -0600
+
+ActionController::RoutingError (No route matches "/stylesheets/jumbo.css"):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:53:01 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.3ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (3.8ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/jumbo.css" for 127.0.0.1 at 2010-12-31 12:53:01 -0600
+
+ActionController::RoutingError (No route matches "/stylesheets/jumbo.css"):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:53:03 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.4ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (4.0ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:54:32 -0600
+
+SyntaxError (/Users/billdoughty/src/capitalthought/rails_bridge/app/controllers/rails_bridge/layout_bridge_controller.rb:33: syntax error, unexpected tLBRACK, expecting ']'
+          [/(<script.*?src\s*?=\s*?")\//...
+           ^
+/Users/billdoughty/src/capitalthought/rails_bridge/app/controllers/rails_bridge/layout_bridge_controller.rb:33: syntax error, unexpected ',', expecting keyword_end
+...?=\s*?")\//, "$1#{site_url}/"],      # replace script URLs
+...                               ^
+/Users/billdoughty/src/capitalthought/rails_bridge/app/controllers/rails_bridge/layout_bridge_controller.rb:35: syntax error, unexpected ']', expecting keyword_end):
+  
+
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/billdoughty/src/capitalthought/rails_bridge/vendor/bundler/ruby/1.9.1/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.9ms)
+
+
+Started GET "/rails_bridge/layouts/application" for 127.0.0.1 at 2010-12-31 12:54:54 -0600
+  Processing by RailsBridge::LayoutBridgeController#show as HTML
+  Parameters: {"id"=>"application"}
+Rendered app/rails_bridge/layout_bridge/views/layouts/_partial.html.erb (0.3ms)
+Rendered app/rails_bridge/layout_bridge/layouts/application/content.html.erb within layouts/application (4.4ms)
+Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 0.0ms)

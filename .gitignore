@@ -8,3 +8,5 @@ doc/app
 log/*.log
 log/*.pid
 tmp/**/*
+Gemfile.lock
+.bundle

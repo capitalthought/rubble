@@ -1,0 +1,324 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul, menu {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+a:active, a:hover {
+  outline: none; }
+
+pre, code, kbd, samp, tt {
+  font-family: monospace, sans-serif; }
+
+input, select, textarea, button {
+  font: 99% sans-serif;
+  margin: 0; }
+
+textarea {
+  overflow: auto; }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+input[type="checkbox"] {
+  vertical-align: bottom; }
+
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline; }
+
+.ie6 input {
+  vertical-align: text-bottom; }
+
+.ie button {
+  width: auto;
+  overflow: visible; }
+
+label, input[type=button], input[type=submit], button {
+  cursor: pointer; }
+
+input:invalid, textarea:invalid {
+  border-color: red; }
+
+.ie6 legend, .ie7 legend {
+  margin-left: -7px; }
+
+ol {
+  list-style-type: decimal;
+  margin-left: 1.5em; }
+
+strong, th {
+  font-weight: bold; }
+
+td, td img {
+  vertical-align: top; }
+
+sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+::-moz-selection {
+  text-shadow: none; }
+
+::selection {
+  text-shadow: none; }
+
+.ie7 img {
+  -ms-interpolation-mode: bicubic; }
+
+pre {
+  white-space: pre;
+  white-space: pre-line;
+  word-wrap: break-word; }
+
+/* 
+  Rails on Rubble 
+    http://capitalthought.com
+  
+  Author: 
+    Adam Michela - Capital Thought
+  
+  Contributors: 
+    Bill Doughty - Capital Thought
+    Rob Eanes - Capital Thought
+    Jason Cohen - Capital Thought
+*/
+html {
+  background: white;
+  height: 100%;
+  margin-bottom: 1px;
+  overflow-y: scroll; }
+
+body {
+  background: white;
+  color: #1a1a1a;
+  font: normal 13px Helvetica, Arial, sans-serif;
+  line-height: 20px; }
+
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  font-family: inherit; }
+  a:link, a:visited {
+    color: #0066b3;
+    text-decoration: none; }
+  a:active, a:hover {
+    text-decoration: underline; }
+
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+.visuallyhidden {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+  .clearfix:after {
+    clear: both; }
+
+.row {
+  zoom: 1;
+  margin: 0 auto;
+  width: 960px; }
+  .row:before, .row:after {
+    content: "\0020";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+  .row:after {
+    clear: both; }
+
+.nested-row {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto; }
+
+.column {
+  zoom: 1;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .column:before, .column:after {
+    content: "\0020";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+  .column:after {
+    clear: both; }
+
+.grid-1 {
+  width: 40px; }
+
+.grid-2 {
+  width: 100px; }
+
+.grid-3 {
+  width: 160px; }
+
+.grid-4 {
+  width: 220px; }
+
+.grid-5 {
+  width: 280px; }
+
+.grid-6 {
+  width: 340px; }
+
+.grid-7 {
+  width: 400px; }
+
+.grid-8 {
+  width: 460px; }
+
+.grid-9 {
+  width: 520px; }
+
+.grid-10 {
+  width: 580px; }
+
+.grid-11 {
+  width: 640px; }
+
+.grid-12 {
+  width: 700px; }
+
+.grid-13 {
+  width: 760px; }
+
+.grid-14 {
+  width: 820px; }
+
+.grid-15 {
+  width: 880px; }
+
+.grid-16 {
+  width: 940px; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #444 !important;
+    text-shadow: none !important; }
+
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline; }
+
+  a:after {
+    content: " (" attr(href) ")"; }
+
+  abbr:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after {
+    content: ""; }
+
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr, img {
+    page-break-inside: avoid; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2, h3 {
+    page-break-after: avoid; } }
