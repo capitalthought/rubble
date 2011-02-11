@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = "A modular mixin for building best of breed (Ruby) web apps."
   s.description = "A modular mixin for building best of breed (Ruby) web apps.  It contains guidelines and best practices for developing HTML5/CSS3 websites."
+  s.executables = ["rubble"]
 
   s.required_rubygems_version = ">= 1.3.6"
 
