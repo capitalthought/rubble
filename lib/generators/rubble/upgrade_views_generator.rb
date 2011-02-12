@@ -6,7 +6,7 @@ module Rubble
       
     def copy_all
        directory 'rails/app/views', "rubble/views"
-       directory 'rails/app/views', "rubble/views"
+       directory 'rails/rubble/views', "rubble/views"
     end
   end
 end
