@@ -1,6 +1,10 @@
 module Rubble
   module Helpers
     
+    def page_title
+      ''
+    end
+    
     def classes_for_body
       body_classes = controller.controller_path.split('/')
       body_classes << controller.action_name
