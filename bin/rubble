@@ -36,7 +36,8 @@ end
 case ARGV[0]
 when '--watch'
   puts "Starting SASS watcher."
-  shell_command 'sass --watch app/sass:public/stylesheets rubble/sass:public/stylesheets'
+  ARGV.shift
+  shell_command "sass --watch app/sass:public/stylesheets rubble/sass:public/stylesheets #{ARGV.join(" ")}"
 when nil, ''
   error "You must supply an option to the rubble command."
 else
