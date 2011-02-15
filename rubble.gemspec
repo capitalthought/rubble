@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency("rake")
   s.add_development_dependency("rails")
 
-  s.files        = Dir.glob("lib/**/*") + %w(README.md)
+  s.files        = Dir.glob("lib/**/*") + %w(README.markdown)
   s.require_path = 'lib'
 end
