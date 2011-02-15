@@ -1,7 +1,46 @@
 Rails on Rubble
 ===============
 
-*Rubble* is **GOING TO BE** a modular mixin for building best of breed (Ruby) web apps.  It contains guidelines and best practices for developing HTML5/CSS3 websites.
+*Rubble* is a modular mixin for building best of breed (Ruby) web apps.  It contains guidelines and best practices for developing HTML5/CSS3 websites.
+
+Installation
+------------
+
+Rubble is designed to work with Rails 3 only.
+
+Add rubble to your gemfile with:
+
+    gem 'rubble'
+
+Run bundle install
+
+Run the generators to pull in the rubble sass, views, or both.
+
+    rails g rubble:sass
+
+OR
+
+    rails g rubble:views
+
+OR
+
+    rails g rubble:all
+
+Include the layout in your ApplicationController:
+
+    class ApplicationController < ActionController::Base
+      include Rubble::Layout
+      protect_from_forgery
+    end
+
+Include the helpers in your ApplicationHelper module
+
+    module ApplicationHelper
+      include Rubble::Helpers
+    end
+
+
+
 
 TODO
 ----
