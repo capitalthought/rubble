@@ -10,7 +10,7 @@ Rubble is designed to work with Rails 3 only.
 
 Add rubble to your gemfile with:
 
-    gem 'rubble'
+    gem 'rubble', :git => 'git://github.com/capitalthought/rubble.git'
 
 Run bundle install
 
