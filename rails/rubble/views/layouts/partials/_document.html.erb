@@ -17,7 +17,7 @@
   <%= yield -%>
   
   </div></div>
-
+<%= render :partial => 'layouts/partials/scripts' -%>
 <%= render :partial => 'layouts/partials/scripts-footer' -%>
 <%= render :partial => 'layouts/partials/analytics-footer' if Rails.env == 'production' -%>
 
