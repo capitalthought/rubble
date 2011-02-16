@@ -8,6 +8,7 @@ module Rubble
        directory 'rails/app/views', "app/views"
        directory 'rails/app/views', "rubble/views"
        directory 'rails/rubble/views', "rubble/views"
+       directory 'rails/public', "public"
     end
   end
 end
