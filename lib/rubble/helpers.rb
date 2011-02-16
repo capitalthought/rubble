@@ -5,8 +5,9 @@ module Rubble
       ''
     end
     
-    def classes_for_body
-      body_classes = controller.controller_path.split('/')
+    def classes_for_body(body_classes=nil)
+      body_classes ||= []
+      body_classes += controller.controller_path.split('/')
       body_classes << controller.action_name
       body_classes.join ' '
     end
