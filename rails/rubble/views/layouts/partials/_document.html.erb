@@ -8,16 +8,16 @@
 <html lang="en" class="no-js">
 <!--<![endif]-->
 
-<%= render :partial => 'layouts/rubble/head' %>
+<%= render :partial => 'layouts/partials/head' %>
 
-<body class="<%= classes_for_body %>" data-controller="<%= controller_name %>" data-action="<%= action_name %>">
+<body class="<%= classes_for_body(@body_classes) %>" data-controller="<%= controller_name %>" data-action="<%= action_name %>">
 
   <div id="theater"><div id="stage">
   
   <%= yield -%>
   
   </div></div>
-
+<%= render :partial => 'layouts/partials/scripts' -%>
 <%= render :partial => 'layouts/partials/scripts-footer' -%>
 <%= render :partial => 'layouts/partials/analytics-footer' if Rails.env == 'production' -%>
 
