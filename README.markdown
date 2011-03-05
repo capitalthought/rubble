@@ -14,17 +14,17 @@ Add rubble to your gemfile with:
 
 Run bundle install
 
-Run the generators to pull in the rubble sass, views, or both.
+Run the generators to pull in the Rubble sass, views, or both.
 
-    rails g rubble:sass
-
-OR
-
-    rails g rubble:views
+    rails g rubble:install_sass
 
 OR
 
-    rails g rubble:all
+    rails g rubble:install_views
+
+OR
+
+    rails g rubble:install_all
 
 Include the layout in your ApplicationController:
 
@@ -40,10 +40,26 @@ Include the helpers in your ApplicationHelper module
     end
 
 
+Upgrading
+---------
+
+To upgrade from a previous version of Rubble, run the upgrade generators.
+
+    rails g rubble:upgrade_sass
+
+OR
+
+    rails g rubble:upgrade_views
+
+OR
+
+    rails g rubble:upgrade_all
+
 
 
 TODO
 ----
++ Add a check at runtime to check for newer Rubble gem version and incompatibility with old SASS and ERB template files.  Alert user they need to ru the upgrade generators.
 + Add yepnope [http://yepnopejs.com/](http://yepnopejs.com/)
 + Use CachedCommons for Modernizr when 1.6 is available [http://cachedcommons.org/](http://cachedcommons.org/)
 + Add Lemonade or CSS Sprite support
